@@ -53,7 +53,6 @@ class LoginController: UIViewController {
             }
             
             guard error == nil else {
-                print(error)
                 return
             }
             
@@ -67,7 +66,7 @@ class LoginController: UIViewController {
             let password = passwordTextField.text,
             let name = nameTextField.text else { return }
         
-        Auth.auth().createUser(withEmail: email, password: password) { (user: User?, error) in
+        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
             
             guard error == nil else {
                 return

@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		8A13F22B3196164A6B4F3A3A /* Pods_GameOfChats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59456DDD6DB900A34DE2BF5 /* Pods_GameOfChats.framework */; };
 		EE589B3F1F5FD686000102A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE589B3E1F5FD686000102A2 /* AppDelegate.swift */; };
-		EE589B411F5FD686000102A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE589B401F5FD686000102A2 /* ViewController.swift */; };
+		EE589B411F5FD686000102A2 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE589B401F5FD686000102A2 /* MessagesController.swift */; };
 		EE589B441F5FD686000102A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE589B421F5FD686000102A2 /* Main.storyboard */; };
 		EE589B461F5FD686000102A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE589B451F5FD686000102A2 /* Assets.xcassets */; };
 		EE589B491F5FD686000102A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE589B471F5FD686000102A2 /* LaunchScreen.storyboard */; };
 		EE589B521F5FE468000102A2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE589B511F5FE468000102A2 /* LoginController.swift */; };
 		EE589B541F5FE8CC000102A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE589B531F5FE8CC000102A2 /* GoogleService-Info.plist */; };
+		EE5CCCAA1F611CD200F05C6A /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5CCCA91F611CD200F05C6A /* NewMessageController.swift */; };
+		EE5CCCAF1F61278100F05C6A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5CCCAE1F61278100F05C6A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A28F7B785A4CB20886759B06 /* Pods-GameOfChats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfChats.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfChats/Pods-GameOfChats.release.xcconfig"; sourceTree = "<group>"; };
 		EE589B3B1F5FD686000102A2 /* GameOfChats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfChats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE589B3E1F5FD686000102A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE589B401F5FD686000102A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE589B401F5FD686000102A2 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		EE589B431F5FD686000102A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE589B451F5FD686000102A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE589B481F5FD686000102A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE589B4A1F5FD686000102A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE589B511F5FE468000102A2 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		EE589B531F5FE8CC000102A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE5CCCA91F611CD200F05C6A /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		EE5CCCAE1F61278100F05C6A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F59456DDD6DB900A34DE2BF5 /* Pods_GameOfChats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfChats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC408CDE9D5169D3928BE89 /* Pods-GameOfChats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfChats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfChats/Pods-GameOfChats.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +78,7 @@
 		EE589B3D1F5FD686000102A2 /* GameOfChats */ = {
 			isa = PBXGroup;
 			children = (
+				EE5CCCAB1F61274D00F05C6A /* Model */,
 				EE589B501F5FE3EE000102A2 /* Controller */,
 				EE589B3E1F5FD686000102A2 /* AppDelegate.swift */,
 				EE589B421F5FD686000102A2 /* Main.storyboard */,
@@ -89,9 +94,18 @@
 			isa = PBXGroup;
 			children = (
 				EE589B511F5FE468000102A2 /* LoginController.swift */,
-				EE589B401F5FD686000102A2 /* ViewController.swift */,
+				EE589B401F5FD686000102A2 /* MessagesController.swift */,
+				EE5CCCA91F611CD200F05C6A /* NewMessageController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		EE5CCCAB1F61274D00F05C6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE5CCCAE1F61278100F05C6A /* User.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		F6CC31B0D0A6CC29B18EC33B /* Frameworks */ = {
@@ -238,8 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE589B411F5FD686000102A2 /* ViewController.swift in Sources */,
+				EE5CCCAA1F611CD200F05C6A /* NewMessageController.swift in Sources */,
+				EE589B411F5FD686000102A2 /* MessagesController.swift in Sources */,
 				EE589B521F5FE468000102A2 /* LoginController.swift in Sources */,
+				EE5CCCAF1F61278100F05C6A /* User.swift in Sources */,
 				EE589B3F1F5FD686000102A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +422,7 @@
 				EE589B4F1F5FD686000102A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
